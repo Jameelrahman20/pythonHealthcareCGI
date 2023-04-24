@@ -1,0 +1,42 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family:sans-serif;
+}
+body{
+	background: url('./img8.jpg') no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+.Report-form{
+	position: absolute;
+	top: 50%;
+	Left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px 0;
+}
+.Report-form h2{
+	font-size: 30px;
+	text-align: center;
+	margin: 40px 0;
+}
+.Report-form input{
+	font-size: 12px;
+	padding: 10px 10px;
+	width: 100%;
+	border-radius: 10px;
+	outline: none;
+}
+.Report-form button{
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 10px 15px;
+	width: 25%;
+	border: 0;
+	border-radius: 10px;
+	background-color: #fff;
+}	
+.Report-form button:hover{ 
+	color: red;
+}

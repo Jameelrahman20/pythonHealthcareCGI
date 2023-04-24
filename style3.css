@@ -1,0 +1,23 @@
+body{
+	margin: 0;
+	height: 100vh;
+	align-items: center;
+}
+.container{
+	margin: auto;
+}
+button{
+	padding: 18px 60px;
+	font-size: 1em;
+	font-family: sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+	border-radius: 10%;
+	trans
+}
+.btn:hover{
+	box-shadow: inset 2px 2px 2px red, inset -2px -2px 2px red;
+	background-color: black;
+	color: red;
+}
